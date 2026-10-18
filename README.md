@@ -42,59 +42,17 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **Monte Carlo**  
-
-  **The data + AI observability platform** for detecting, resolving, and preventing data quality incidents across warehouses, lakes, BI tools, and AI agents . **Pricing**: **Quote-only enterprise pricing** with tiered plans (Start, Scale, Enterprise) based on tables and users—**no public per-table rate** . **Start** covers warehouse, BI, and ETL monitoring for up to 10 users and 1,000 tables . **Scale** adds lakes (Databricks, Hive, Glue), databases, GenAI pipelines, SSO, PII filtering, and customer-hosted agents . **Enterprise** adds EDW (Oracle, SAP Hana, Teradata), audit logging, and unlimited users . **GraphQL API** exposes every web app feature; **Push Ingest API** for custom metadata; **MCP server** with 56 tools for AI agent integration . **The market leader** by G2 and Gartner Peer Insights with 500+ deployments .
-
-
-
-- **Bigeye**  
-
-  **Enterprise data observability with legacy system support** . **Pricing**: **Quote-only**—enterprise sales-led . **Key differentiators**: **customizable data quality dimensions** (align metrics with your governance framework), **join rules** for cross-database integrity checks (LEFT, RIGHT, INNER, FULL OUTER with column filtering), and **asset linking** to map virtual table metrics back to physical critical data elements (CDEs) . **bigAI incident co-pilot** summarizes incidents in plain language, suggests remediation steps, and produces stakeholder impact statements—**cuts mean time to resolution in half** in beta . **Extensive legacy connectors**: Oracle, SQL Server, Informatica, IBM DB2, DataStage, SSIS, SnapLogic, Qlik Replicate . **Best for**: enterprises migrating thousands of rules from legacy tools while needing modern automation .
-
-
-
-- **IBM Databand**  
-
-  **Observability software for data pipelines and warehouses** that automatically collects metadata . Features **pipeline monitoring** (DAGs, runs, tasks), **data warehouse monitoring** (hourly table snapshots, query history), **alerts** for null and duplicate checks, **live view** for active runs, and **role-based access control** . **Databand Self-Hosted** keeps all metadata within your network . **Table transactions collected every 10 seconds**; **table summaries and quality checks every hour** . **Best for**: organizations already in the IBM ecosystem needing self-hosted observability .
-
-
-
-- **Acceldata (ADOC)**  
-
-  **Data Observability Cloud** with **Agentic Data Management (ADM)** . Features **Discovery** (60+ data sources, automatic schema scanning), **Policies** (data quality, reconciliation, freshness, schema drift, data drift, profile anomaly), and **Insights & Actions** (Slack/Email/Teams alerts, reliability reports, root cause drilldowns) . **ADM** provides natural-language investigation—explains why a policy failed, summarizes contributing rules, and guides remediation . **Best for**: teams wanting **guided incident investigation** on top of observability .
-
-
-
-- **Soda**  
-
-  **AI-native, fully automated data quality platform** . **Pricing**: **Free plan** for up to 3 production datasets . **Team at $8 per dataset per month** (billed annually)—pay only for datasets you test and monitor, unlimited users . **Enterprise** adds no-code interface, AI-powered features, audit logs, RBAC, private deployment, and SSO . **Best for**: teams wanting **per-dataset pricing transparency** with a generous free tier .
-
-
-
-- **Anomalo**  
-
-  **AI-native enterprise data quality platform** backed by **both Databricks and Snowflake** . **Pricing**: **Quote-only** . **Key differentiator**: **unsupervised ML** automatically profiles data and detects anomalies **without manual rules**—works across **structured, semi-structured, and unstructured** data . **Agentic Platform** (2026) adds **Table Observability Agent**, **Data Quality Agent**, **Data Issue First Responder Agent** (investigates and acts on runbooks, initiates ServiceNow/JIRA workflows), and **Data Insights Agent** (proactively investigates and delivers analyst-grade reports) . **Best for**: enterprises wanting **no-code ML anomaly detection** with agentic remediation .
-
-
-
-- **Metaplane**  
-
-  **Data observability with ML-based anomaly detection and end-to-end column-level lineage** . Features **Chrome extension** to check dashboard data integrity in-place—confirm source data, freshness, and lineage without leaving the BI tool . **Monitor entire data stack within 30 minutes** . **Best for**: teams wanting **fast setup** and in-context visibility from BI dashboards .
-
-
-
-- **Telmai**  
-
-  **AI-powered data observability for the agentic AI era** . Features **continuous validation** (structured, semi-structured, unstructured), **MCP-compliant server** for LLM agents (Claude, Bedrock, Vertex) to query validated data and quality metadata, and **Data Reliability Agents** for natural-language anomaly investigation and remediation suggestions . **Best for**: teams building **agentic AI workflows** needing real-time quality signals at the source .
-
-
-
-- **Lightup**  
-
-  **Next-generation data quality and observability** with **MCP integration** (Claude Code) . Features **data profiles** (automatic static analysis), **auto metrics** for common checks, **custom metrics** (no-code to SQL), **slices** for per-segment monitoring, and **threshold or anomaly detection monitors** . **Best for**: teams wanting **flexible metric definition** with MCP-native agent access .
+| Platform | Company Scale (Valuation / Revenue) | Starting Pricing Tier | Free Tier / Trial Limits | Key Capabilities & Best For |
+| :--- | :--- | :--- | :--- | :--- |
+| **IBM Databand** | **~$215B Market Cap** (Parent IBM; ~$150M Databand acquisition) | **~$450/month** (Essentials tier baseline via IBM Cloud/watsonx, scaling to $1,750+/mo) | **30-day free trial** (Full feature access via IBM Cloud / watsonx.data; no permanent free plan) | Observability software for data pipelines (DAGs, runs, tasks) and warehouses with hourly snapshots, run live views, and self-hosted deployment options. Best for IBM ecosystem users. |
+| **Monte Carlo** | **$1.6B Valuation** (Series D unicorn; $236M+ raised) | **~$25,000 – $50,000/year** (Baseline entry/AWS Marketplace package; Start tier covers up to 10 users & 1,000 monitors) | **14 to 30-day POC / Pilot** (Tailored evaluation on 1–3 warehouses/lakes and subset of critical tables; no permanent free plan) | Leading data + AI observability platform across warehouses, lakes, BI, and AI agents with GraphQL/Push Ingest APIs and 56-tool MCP server. Best for end-to-end enterprise coverage. |
+| **Acceldata (ADOC)** | **~$360M Valuation** (Series C; $106M+ raised) | **~$100,000/year** (Enterprise platform tier based on compute/volume starting ~$0.20/GB or TB/month units) | **30-day free trial** (Full access to data observability cloud, automated scanning, and policies; no permanent free plan) | Data Observability Cloud with Agentic Data Management (ADM) providing natural-language incident drilldowns, 60+ data connectors, and drift/reconciliation policies. Best for guided incident RCA. |
+| **Bigeye** | **~$180M Valuation** (Series B; $68.5M+ raised) | **~$45,000/year** (Entry AWS Marketplace tier covering up to 100 actively monitored tables; $75,000/yr for 300 tables) | **14 to 30-day Proof of Concept (PoC)** (Hands-on evaluation scoped to target warehouse connectors and sample CDEs; no permanent free plan) | Enterprise data observability with deep legacy connector support (Informatica, DB2, SSIS, DataStage), bigAI incident copilot, and cross-database join rules. Best for enterprise legacy migrations. |
+| **Anomalo** | **~$165M Valuation** ($100M–$250M range; $72M+ raised) | **~$58,000/year** (Entry tier via AWS Marketplace / Vendr median ~$115k/yr based on monitored table count) | **14 to 30-day enterprise pilot / POC** (Scoped evaluation on up to 50–100 production tables with full ML anomaly detection; no permanent free plan) | AI-native enterprise data quality with unsupervised ML across structured, semi-structured, and unstructured data, backed by Databricks and Snowflake. Best for zero-rule automated ML profiling. |
+| **Soda (Soda Cloud)** | **~$70M Valuation** ($27.9M raised; $14M 2024 round) | **$750/month** (Team tier, includes core platform features and base SPUs; previously $8/dataset/mo) | **Free-forever plan: Up to 3 production datasets** (Includes pipeline testing, metrics observability, and alerting; unlimited time) | AI-native automated data quality platform with SodaCL checks-as-code, no-code rule builder, and self-serve dataset monitoring. Best for transparent modular adoption. |
+| **Metaplane** | **~$50M Valuation** ($23M raised; Series A led by Felicis) | **$10/monitored table/month** (Pro tier; minimum spend commonly starts at ~$500/month with 12 users) | **Free-forever plan: Up to 10 monitored tables & 4 users** (Includes automated anomaly detection, schema tracking; also offers a 14-day Pro trial) | ML-based anomaly detection with end-to-end column-level lineage and Chrome extension to verify dashboard data directly in BI tools. Best for fast 30-minute setup and BI integration. |
+| **Telmai** | **~$25M Valuation** ($11.3M raised; YC alum & Seed led by Glasswing) | **~$25,000 – $50,000/year** (Entry annual contract based on in-place query units and data source volume) | **14-day guided trial / sandbox** (Hands-on evaluation environment connecting to sample cloud warehouse or private VPC; no permanent free plan) | AI-powered data observability for agentic workflows with continuous validation (structured/unstructured), zero-copy decoupled metrics, and MCP-compliant server. Best for agentic AI pipelines. |
+| **Lightup** | **~$20M Valuation** ($9.0M raised; Series A led by a16z) | **~$24,000 – $36,000/year** (Cloud annual subscription baseline; custom Enterprise tier for hybrid/on-prem) | **30-day cloud trial** (Demo workspace sandbox capped at 5 users and sample warehouse connections; no permanent free plan) | Next-generation data quality with automatic data profiling, SQL/no-code custom metrics, slicing, and native Claude Code MCP integration. Best for flexible metric slicing and MCP agent access. |
 
 
 
