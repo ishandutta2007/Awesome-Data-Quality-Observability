@@ -1,48 +1,50 @@
-# Awesome-Data-Quality-Observability
+<div align="center">
 
-## Top Data Quality & Observability Ecosystem
+<img src="./assets/banner.svg" alt="Awesome Data Quality &amp; Observability Banner" width="100%" />
 
+# 🔍 Awesome Data Quality & Observability 🚀
 
+<p align="center">
+  <strong>Curated catalog of top enterprise SaaS platforms and open-source frameworks for data observability, pipeline testing, data contracts, and automated anomaly detection.</strong>
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Quality-Observability/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Quality-Observability?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Quality-Observability/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Data-Quality-Observability?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Quality-Observability/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Quality-Observability"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-*Focused on Automated Anomaly Detection, Data Contracts & Pipeline Testing*  
+</div>
 
-**Last updated: October 2026**
+---
 
+## 📖 Table of Contents
 
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS / Hosted Platforms](#️-saas--hosted-platforms)
+- [🛠️ Open-Source GitHub Projects](#️-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Community](#-support--community)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Data Quality & Observability**. These tools enable data teams to detect, triage, and resolve data issues before they impact downstream dashboards, models, or business decisions—from ML-powered anomaly detection that learns what "normal" looks like to declarative testing frameworks that enforce data contracts in CI/CD.
+---
 
+## 🌐 Sector Overview & Market Dynamics
 
+The global **Data Quality & Observability** market is estimated at **$2.5B–$3.8B in 2026** and projected to surpass **$7B+ by 2030** (growing at a 20%+ CAGR), fueled by enterprise cloud warehouse adoption and mission-critical GenAI/agentic data pipeline dependencies. 
 
-**Examples** include Monte Carlo, Bigeye, IBM Databand, Acceldata, Soda, Great Expectations, Anomalo, Metaplane, Telmai, and Lightup (the category leaders).
+The sector remains **moderately fragmented**: while category front-runners like Monte Carlo, Acceldata, Bigeye, and Anomalo command substantial enterprise market share and hyperscalers (IBM, Snowflake, Databricks) continue strategic acquisitions and native tooling rollouts, it is **not a winner-take-all market** due to diverse architectural paradigms—ranging from developer-first declarative test engines (Great Expectations, dbt, Soda) and zero-copy in-place query observability (Telmai) to legacy enterprise data estate migration solutions.
 
+---
 
+## ☁️ SaaS / Hosted Platforms
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, declarative data testing, and open observability infrastructure—ideal for data engineers, analytics teams, and organizations seeking transparent, vendor-independent data reliability.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-| Platform | Company Scale (Valuation / Revenue) | Starting Pricing Tier | Free Tier / Trial Limits | Key Capabilities & Best For |
+| 🏢 Platform | 💰 Company Scale (Valuation / Revenue) | 🏷️ Starting Pricing Tier | 🎁 Free Tier / Trial Limits | ⚡ Key Capabilities & Best For |
 | :--- | :--- | :--- | :--- | :--- |
 | **IBM Databand** | **~$215B Market Cap** (Parent IBM; ~$150M Databand acquisition) | **~$450/month** (Essentials tier baseline via IBM Cloud/watsonx, scaling to $1,750+/mo) | **30-day free trial** (Full feature access via IBM Cloud / watsonx.data; no permanent free plan) | Observability software for data pipelines (DAGs, runs, tasks) and warehouses with hourly snapshots, run live views, and self-hosted deployment options. Best for IBM ecosystem users. |
 | **Monte Carlo** | **$1.6B Valuation** (Series D unicorn; $236M+ raised) | **~$25,000 – $50,000/year** (Baseline entry/AWS Marketplace package; Start tier covers up to 10 users & 1,000 monitors) | **14 to 30-day POC / Pilot** (Tailored evaluation on 1–3 warehouses/lakes and subset of critical tables; no permanent free plan) | Leading data + AI observability platform across warehouses, lakes, BI, and AI agents with GraphQL/Push Ingest APIs and 56-tool MCP server. Best for end-to-end enterprise coverage. |
@@ -54,88 +56,97 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 | **Telmai** | **~$25M Valuation** ($11.3M raised; YC alum & Seed led by Glasswing) | **~$25,000 – $50,000/year** (Entry annual contract based on in-place query units and data source volume) | **14-day guided trial / sandbox** (Hands-on evaluation environment connecting to sample cloud warehouse or private VPC; no permanent free plan) | AI-powered data observability for agentic workflows with continuous validation (structured/unstructured), zero-copy decoupled metrics, and MCP-compliant server. Best for agentic AI pipelines. |
 | **Lightup** | **~$20M Valuation** ($9.0M raised; Series A led by a16z) | **~$24,000 – $36,000/year** (Cloud annual subscription baseline; custom Enterprise tier for hybrid/on-prem) | **30-day cloud trial** (Demo workspace sandbox capped at 5 users and sample warehouse connections; no permanent free plan) | Next-generation data quality with automatic data profiling, SQL/no-code custom metrics, slicing, and native Claude Code MCP integration. Best for flexible metric slicing and MCP agent access. |
 
+---
 
+## 🛠️ Open-Source GitHub Projects
 
-## Open-Source GitHub Projects
+Sorted by GitHub star count in descending order:
 
+1. **[OpenMetadata](https://github.com/open-metadata/OpenMetadata)** [![Stars](https://img.shields.io/github/stars/open-metadata/OpenMetadata?style=social&color=white)](https://github.com/open-metadata/OpenMetadata/stargazers)  
+   **Unified metadata, data discovery, quality profiling, and end-to-end lineage platform** (Apache-2.0) . Features built-in data profiler, automated tests, no-code data quality dashboards, freshness alerts, column-level lineage, and rich governance integrations across 70+ connectors .
 
+2. **[dbt-core](https://github.com/dbt-labs/dbt-core)** [![Stars](https://img.shields.io/github/stars/dbt-labs/dbt-core?style=social&color=white)](https://github.com/dbt-labs/dbt-core/stargazers)  
+   **The standard for analytics engineering transformation and pipeline testing** (Apache-2.0) . Built-in declarative testing (`not_null`, `unique`, `accepted_values`, `relationships`), custom data tests, singular tests, and integration with dbt-expectations .
 
-- **Great Expectations (GX)**  
+3. **[DataHub](https://github.com/datahub-project/datahub)** [![Stars](https://img.shields.io/github/stars/datahub-project/datahub?style=social&color=white)](https://github.com/datahub-project/datahub/stargazers)  
+   **Extensible metadata platform for data observability and governance** (Apache-2.0, originally by LinkedIn) . Supports real-time column-level lineage, automated dataset assertions, data quality history tracking, impact analysis, and alerts via Slack and Teams .
 
-  **Shared, open standard for data quality** (Apache-2.0) — **the most widely adopted open-source data testing framework** . **Expectations** are the workhorse abstraction—each declares an expected state of the data (`expect_column_values_to_not_be_null`, `expect_column_values_to_match_regex`, `expect_table_row_count_to_be_between`, etc.) . **Expectation Suites** bundle Expectations for a dataset; **Checkpoints** automate testing and trigger Actions (alerts, pipeline blocking) based on results . **Data Docs** generate human-readable documentation—technical and non-technical stakeholders can inspect results . **Processes data in place**—no data leaves your systems . **Integrates with CI/CD** and works with Redshift, S3, Databricks, Flyte, and more . **Note**: **GX Cloud shut down June 1, 2026**—the open-source core remains Apache-2.0 and fully functional . **The reference implementation for declarative data testing** .
+4. **[Great Expectations (GX)](https://github.com/great-expectations/great_expectations)** [![Stars](https://img.shields.io/github/stars/great-expectations/great_expectations?style=social&color=white)](https://github.com/great-expectations/great_expectations/stargazers)  
+   **The open standard for declarative data testing and documentation** (Apache-2.0) . Features expressive Expectation Suites, automated Checkpoints, and human-readable Data Docs. Processes data directly in-place across Snowflake, Databricks, Redshift, S3, and Postgres .
 
+5. **[Cleanlab](https://github.com/cleanlab/cleanlab)** [![Stars](https://img.shields.io/github/stars/cleanlab/cleanlab?style=social&color=white)](https://github.com/cleanlab/cleanlab/stargazers)  
+   **The standard data-centric AI package for data quality and label reliability** (AGPL-3.0) . Automatically detects label errors, outliers, duplicates, and data issues in tabular datasets, NLP text, and computer vision images to enhance machine learning fidelity .
 
+6. **[Evidently](https://github.com/evidentlyai/evidently)** [![Stars](https://img.shields.io/github/stars/evidentlyai/evidently?style=social&color=white)](https://github.com/evidentlyai/evidently/stargazers)  
+   **Open-source ML and data observability framework** (Apache-2.0) . Evaluates, tests, and monitors data drift, target drift, data quality metrics, and machine learning models in production or CI/CD pipelines with interactive visual reports .
 
-- **Soda Core**  
+7. **[Deequ](https://github.com/awslabs/deequ)** [![Stars](https://img.shields.io/github/stars/awslabs/deequ?style=social&color=white)](https://github.com/awslabs/deequ/stargazers)  
+   **Declarative data quality testing at petabyte scale on Apache Spark** (Apache-2.0, by AWS) . Defines "unit tests for data" on large distributed datasets, calculating metrics and constraint verification seamlessly over billions of rows .
 
-  **Open-source library and CLI for data quality testing** (Apache-2.0) . **SodaCL (Soda Checks Language)** turns user-defined input into SQL queries for validation . **Free and open source** with **18+ data source connections** . **Soda Library** (commercial extension) adds Soda Cloud connectivity, complex SodaCL checks, and additional features . **Best for**: teams wanting **SQL-native checks** without the full GX framework—**simpler and lighter than Great Expectations** for basic validation .
+8. **[whylogs](https://github.com/whylabs/whylogs)** [![Stars](https://img.shields.io/github/stars/whylabs/whylogs?style=social&color=white)](https://github.com/whylabs/whylogs/stargazers)  
+   **Open-source standard for data logging, profiling, and ML telemetry** (Apache-2.0, by WhyLabs) . Lightweight statistical profiling enabling privacy-preserving, zero-data-movement drift detection and quality monitoring on streaming and batch data .
 
+9. **[OpenLineage](https://github.com/OpenLineage/OpenLineage)** [![Stars](https://img.shields.io/github/stars/OpenLineage/OpenLineage?style=social&color=white)](https://github.com/OpenLineage/OpenLineage/stargazers)  
+   **Open standard for decentralized data lineage collection and pipeline observability** (Apache-2.0, LF AI & Data Foundation) . Traces dataset dependencies and runtime operational metrics across Airflow, Spark, dbt, Flink, and Dagster .
 
+10. **[Soda Core](https://github.com/sodadata/soda-core)** [![Stars](https://img.shields.io/github/stars/sodadata/soda-core?style=social&color=white)](https://github.com/sodadata/soda-core/stargazers)  
+    **Lightweight SQL-native library and CLI for data quality validation** (Apache-2.0) . Uses human-readable SodaCL (Soda Checks Language) to turn checks into SQL queries with 18+ pre-built database connections .
 
-- **Elementary**  
+11. **[Elementary](https://github.com/elementary-data/elementary)** [![Stars](https://img.shields.io/github/stars/elementary-data/elementary?style=social&color=white)](https://github.com/elementary-data/elementary/stargazers)  
+    **dbt-native data observability and anomaly detection package** (Apache-2.0) . Installs seamlessly as a dbt package to monitor volume anomalies, freshness, and test failures directly within your data warehouse without external infrastructure .
 
-  **dbt-native data observability** (Apache-2.0) . **The dbt-native choice**—**monitor pipelines in minutes** with a dbt package that adds data quality tests and anomaly detection **directly into dbt** . **Available as self-hosted or cloud service** with premium features . **Best for**: teams already running dbt who want observability **without adding a separate platform** .
+12. **[DataProfiler](https://github.com/capitalone/DataProfiler)** [![Stars](https://img.shields.io/github/stars/capitalone/DataProfiler?style=social&color=white)](https://github.com/capitalone/DataProfiler/stargazers)  
+    **Automated data profiling, PII detection, and schema analysis** (Apache-2.0, by Capital One) . Uses deep learning and rule-based profilers to identify data structures, sensitive information (PII/NPI), and quality anomalies in tabular and unstructured datasets .
 
+13. **[re_data](https://github.com/re-data/re-data)** [![Stars](https://img.shields.io/github/stars/re-data/re-data?style=social&color=white)](https://github.com/re-data/re-data/stargazers)  
+    **Open-source data quality framework for modern data warehouses** (MIT) . Computes data metrics, alerts on anomalies, and generates interactive data quality dashboards directly inside Snowflake, BigQuery, and Redshift .
 
-
-### Additional Strong Open-Source Options
-
-
-
-- **dbt tests** — Built-in testing for dbt models (Apache-2.0) . **The simplest data quality layer**—declarative tests (`not_null`, `unique`, `accepted_values`, `relationships`) run as part of `dbt test` . **No separate infrastructure**—if you're using dbt, you already have this .
-
-- **dbt-meta-testing** — dbt package for documentation and test coverage (open-source) . **Granular control** over which models and columns are tested .
-
-- Community **n8n** workflows for data quality alerting and incident routing.
-
-
-
-**Frameworks for building custom systems**: Combine **Great Expectations** for declarative testing and Data Docs with **Soda Core** for SQL-native checks, **Elementary** for dbt-native observability, and **dbt tests** for the simplest validation layer—creating a comprehensive open-source data quality stack.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Data quality platforms handling enterprise data must comply with data protection regulations (GDPR, CCPA, etc.) and implement appropriate access controls.
-
-- **Open-source data quality is mature for declarative testing but limited for automated anomaly detection.** **Great Expectations** is the **most widely adopted open-source data testing framework** with human-readable Data Docs . **Soda Core** provides **SQL-native checks** with 18+ sources . **Elementary** brings observability to dbt . **But no open-source tool provides the ML-powered anomaly detection, automated profiling, and incident triage of Monte Carlo or Anomalo**—**integration work is required** .
-
-- **The pricing models vary dramatically.** **Soda** charges **$8 per dataset per month** with a free tier for 3 datasets—**the most transparent pricing** in the category . **Monte Carlo** is **quote-only enterprise pricing** with tiers based on tables and users . **GX Cloud shut down June 1, 2026**—the open-source core remains free, but the managed offering is gone . **Model expected dataset count and table volume before committing** .
-
-- **The "rules vs. ML" distinction is the core trade-off.** **Great Expectations and Soda** require **you to define what "good" looks like** via Expectations or SodaCL checks—**precise but manual** . **Monte Carlo and Anomalo** use **unsupervised ML to learn what "normal" looks like**—**zero configuration but probabilistic** . **Most mature teams use both**: declarative checks for known-critical constraints, ML for discovering unknown unknowns .
-
-- **Agentic integration is the 2026 frontier.** **Monte Carlo** has an **MCP server with 56 tools** and **19 Apache-2.0 Agent Skills** for coding agents . **Telmai** has an **MCP-compliant server** so LLM agents can query validated data and quality metadata . **Lightup** integrates with **Claude Code** . **Data quality is becoming a tool that AI agents call, not just a dashboard humans read** .
-
-- **Self-hosted open-source solutions require proper infrastructure management, check maintenance, and ongoing tuning.** **Data quality checks drift as schemas and business logic evolve**—budget for maintenance regardless of platform choice.
-
-
+14. **[Data Contract CLI](https://github.com/datacontract/cli)** [![Stars](https://img.shields.io/github/stars/datacontract/cli?style=social&color=white)](https://github.com/datacontract/cli/stargazers)  
+    **CLI and Python toolkit for data contract specification, schema testing, and CI/CD validation** (MIT) . Enforces data contracts between data producers and consumers using declarative YAML contracts and automated runtime checks .
 
 ---
 
+## 🤝 How to Contribute
 
+Contributions are welcome and highly appreciated! 🎉
 
-**Made for data engineers, analytics teams, and organizations building transparent data quality solutions.**  
+1. 🍴 Fork the repository.
+2. 🌿 Create a new branch (`git checkout -b feature/new-tool-entry`).
+3. 📝 Add or update entries following the established format (include official links, pricing, free limits, and badges).
+4. 🚀 Open a Pull Request with a concise summary of the changes.
 
-Let's make Data Quality & Observability more open, data-driven, and reliable.
+Please make sure descriptions remain factual, informative, and up-to-date.
+
+---
+
+## 💖 Support & Community
+
+If you find this curated collection valuable for your engineering workflows:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork the repo** to keep a personal reference.
+- 📣 **Share with peers** across Slack, Discord, LinkedIn, or Twitter/X.
+- ☕ **Support ongoing maintenance**: You can sponsor or buy a coffee via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Data-Quality-Observability&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Data-Quality-Observability&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated catalog** — not an endorsement of any commercial platform or open-source library.
+- Data quality and observability tools processing sensitive enterprise workloads must comply with security and regulatory standards (GDPR, HIPAA, SOC 2, CCPA).
+- **Rules vs. ML Trade-offs**: Declarative testing tools (e.g., Great Expectations, dbt, Soda Core) deliver deterministic, contract-based precision for known invariants. ML-based anomaly platforms (Monte Carlo, Anomalo, Metaplane) detect unknown deviations and trend drift without manual check writing. Mature enterprise data architectures typically blend both paradigms.
+- **Agentic AI Frontier**: Modern observability increasingly interfaces directly with coding assistants and autonomous agents via MCP (Model Context Protocol), Claude Code, and API toolkits.
+
+---
+
+<div align="center">
+
+**Built with ❤️ for data engineers, analytics teams, and AI practitioners.**
+
+</div>
