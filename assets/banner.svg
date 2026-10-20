@@ -135,7 +135,7 @@
 
   <!-- Foreground Content: Subtitle -->
   <text x="600" y="172" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#94a3b8" letter-spacing="0.3">
-    Automated Anomaly Detection &bull; Declarative Testing &bull; Data Contracts &bull; Pipeline Reliability
+    Automated Anomaly Detection &#8226; Declarative Testing &#8226; Data Contracts &#8226; Pipeline Reliability
   </text>
 
   <!-- Dynamic Feature Badges / Category Cards in Foreground (Lower Section) -->
