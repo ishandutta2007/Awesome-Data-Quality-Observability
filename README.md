@@ -60,7 +60,7 @@ The sector remains **moderately fragmented**: while category front-runners like 
 
 ## 🛠️ Open-Source GitHub Projects
 
-Sorted by GitHub Stars_Count in descending order:
+Sorted by GitHub_Stars_Count in descending order:
 
 1. **[OpenMetadata](https://github.com/open-metadata/OpenMetadata)** [![Stars](https://img.shields.io/github/stars/open-metadata/OpenMetadata?style=social&color=white)](https://github.com/open-metadata/OpenMetadata/stargazers)  
    **Unified metadata, data discovery, quality profiling, and end-to-end lineage platform** (Apache-2.0) . Features built-in data profiler, automated tests, no-code data quality dashboards, freshness alerts, column-level lineage, and rich governance integrations across 70+ connectors .
